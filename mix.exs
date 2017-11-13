@@ -28,7 +28,7 @@ defmodule Elavon.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:commerce_cure, git: "https://github.com/auroche/commerce_cure.git"},
+      {:commerce_cure, git: "https://github.com/auroche/commerce_cure.git", tag: "0.0.2"},
       {:ecto, "~> 2.2"},
       {:httpoison, "~> 0.13"},
       {:poison, "~> 3.1"},
